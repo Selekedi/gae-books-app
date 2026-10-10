@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/gae-books-app/sw.js', { scope: '/gae-books-app/' })})}
